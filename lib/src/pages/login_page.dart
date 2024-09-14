@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_supabase_signin/env/environment.dart';
 import 'package:flutter_supabase_signin/src/main/start_app.dart';
 import 'package:flutter_supabase_signin/src/pages/profile_page.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -33,9 +34,9 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Future<AuthResponse> _googleSignIn() async {
-    const serverClientId = '14731832038-qkqpt4u9tl95u20506pv22li7tsafnsa.apps.googleusercontent.com';
+    final serverClientId = Environment.instance.googleServerClientId;
 
-    const iosClientId = '14731832038-ksgjtf8a2tv1qr6etrnjvbbd1rpa94sv.apps.googleusercontent.com';
+    final iosClientId = Environment.instance.googleClientId;
 
     final GoogleSignIn googleSignIn = GoogleSignIn(
       clientId: iosClientId,
