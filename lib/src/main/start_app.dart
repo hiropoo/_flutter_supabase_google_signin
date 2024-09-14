@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_supabase_signin/env/environment.dart';
-import 'package:flutter_supabase_signin/src/login_page.dart';
+import 'package:flutter_supabase_signin/src/pages/login_page.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 void startApp() async {

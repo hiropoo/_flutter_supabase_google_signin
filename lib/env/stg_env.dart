@@ -2,7 +2,7 @@ import 'package:envied/envied.dart';
 
 part 'stg_env.g.dart';
 
-@Envied(path: '.env')
+@Envied(path: '.env.stg')
 abstract class StgEnv {
   @EnviedField(varName: 'SUPABASE_URL', obfuscate: true)
   static final String supabaseUrl = _StgEnv.supabaseUrl;

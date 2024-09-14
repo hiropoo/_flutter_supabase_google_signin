@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_supabase_signin/src/main/start_app.dart';
-import 'package:flutter_supabase_signin/src/profile_page.dart';
+import 'package:flutter_supabase_signin/src/pages/profile_page.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 import 'package:supabase_flutter/supabase_flutter.dart';

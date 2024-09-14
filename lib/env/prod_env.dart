@@ -2,7 +2,7 @@ import 'package:envied/envied.dart';
 
 part 'prod_env.g.dart';
 
-@Envied(path: '.env')
+@Envied(path: '.env.prod')
 abstract class ProdEnv {
   @EnviedField(varName: 'SUPABASE_URL', obfuscate: true)
   static final String supabaseUrl = _ProdEnv.supabaseUrl;
