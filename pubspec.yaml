@@ -1,0 +1,24 @@
+name: flutter_supabase_signin
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  envied: ^0.5.4+1
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.2.1
+  supabase_flutter: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+  envied_generator: ^0.5.4+1
+
+flutter:
+  uses-material-design: true
