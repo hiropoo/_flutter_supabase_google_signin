@@ -16,7 +16,7 @@
     - Enable Sign in with Google をtureにする
     - クライアントIDとClient Secretは何も入力しない（値が入っている場合は削除）
     - Authorized Client IDsにWebクライアントIDを入力して保存する。
-6. iOS/Runner/info.plst に次の`CFBundleURLTypes` のkeyと値を追加
+6. iOS/Runner/info.plst に次の`CFBundleURLTypes` のkeyと値`<string>[Google Client ID (ios)の逆ドメイン]</string>`を追加
    
     ```xml
     <key>CFBundleURLTypes</key>
